@@ -4,13 +4,13 @@ Date: Thu, 26 Mar 2020 02:34:43 +0100
 Subject: [PATCH] Enable support for adapter monitor mode by default
 
 ---
- drivers/staging/qcacld-3.0/configs/default_defconfig | 2 +-
+ drivers/staging/qcacld-3.0/configs/courbet_defconfig | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/drivers/staging/qcacld-3.0/configs/default_defconfig b/drivers/staging/qcacld-3.0/configs/default_defconfig
+diff --git a/drivers/staging/qcacld-3.0/configs/courbet_defconfig b/drivers/staging/qcacld-3.0/configs/courbet_defconfig
 index 8e7f42665cee..9918575a94d0 100644
---- a/drivers/staging/qcacld-3.0/configs/default_defconfig
-+++ b/drivers/staging/qcacld-3.0/configs/default_defconfig
+--- a/drivers/staging/qcacld-3.0/configs/courbet_defconfig
++++ b/drivers/staging/qcacld-3.0/configs/courbet_defconfig
 @@ -561,7 +561,7 @@ CONFIG_CONVERGED_TDLS_ENABLE := y
  CONFIG_WLAN_CONV_SPECTRAL_ENABLE := y
  CONFIG_WLAN_SPECTRAL_ENABLE := y
